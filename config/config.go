@@ -93,6 +93,8 @@ func ParseConfiguration(jsonFile string) Options {
 
 	}
 
+	log.Infof("Modlishka parsed configuration\n")
+
 
 	return C
 }
