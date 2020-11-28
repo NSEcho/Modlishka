@@ -55,6 +55,7 @@ type TLSConfig struct {
 }
 
 var C = Options{}
+var s = TLSConfig{}
 
 func ParseConfiguration(jsonFile string) Options {
 
